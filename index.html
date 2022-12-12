@@ -25,15 +25,22 @@
     <!-- header section starts  -->
 
     <header>
-      <!-- <a href="#" class="logo"> <span>ved</span> Patel </a> -->
+      <!-- <a href="#" class="logo"> <span>vedprakash</span> Paswan </a> -->
 
       <nav class="navbar">
         <a href="#home">home</a>
         <a href="#about">about</a>
-        <a href="#service">proficiencies</a>
+        <a href="#service">Skills</a>
         <a href="#experience">qualification</a>
         <a href="#portfolio">Projects</a>
         <a href="#contact">contact</a>
+        <a
+          id="myyfun"
+          target="_blank"
+          href="./File/Vedprakash_Paswan_Resume.pdf"
+          download
+          >resume</a
+        >
       </nav>
 
       <div class="follow">
@@ -57,9 +64,9 @@
       </div>
     </header>
 
-    <!-- header section ends -->
+    <!----------------------------------- header section ends-------------------------------------------------------------------->
 
-    <!-- home section starts  -->
+    <!-------------------------- home section starts  ---------------------------------------------->
 
     <section class="home" id="home">
       <div class="content">
@@ -88,7 +95,7 @@
 
       <div class="row-1">
         <div class="image">
-          <img src="images/2nd_img.png" alt="" />
+          <img src="./images/IMG_20221023_180941-removebg-preview (1).png" alt="" />
         </div>
 
         <div class="content">
@@ -113,11 +120,20 @@ technology.
               <p><span> country : </span> india</p>
             </div> -->
           </div>
+
           <a
+          id="myyfun"
+          target="_blank"
+          class="btn"
+          href="./File/Vedprakash_Paswan_Resume.pdf"
+          download
+          >Download Resume</a>
+
+          <!-- <a
             href="./File/Vedprakash_Paswan_Resume.pdf"
             target="_blank"
             class="btn",download
-            >download CV</a>
+            >download CV</a> -->
           <!-- <a href="#" class="btn">hire me</a> -->
         </div>
       </div>
@@ -382,6 +398,18 @@ technology.
       rel="stylesheet"
       href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
      />
+
+
+     <section class="github-stats section" id="github-stats">
+      <div class="github-images">
+        <img
+          src="https://github-readme-stats.vercel.app/api?username=vedpaswan01&show_icons=true&theme=default"
+        />
+        <img
+          src="https://github-readme-streak-stats.herokuapp.com/?user=vedpaswan01&theme=default"
+        />
+      </div>
+
      
      <!-- Prepare a container for your calendar. -->
      <div class="calendar">
@@ -483,5 +511,34 @@ technology.
 
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
+    <script>
+      /*==================== GITHUB CALENDAR ====================*/
+      GitHubCalendar(".calendar", "vedpaswan01", {
+        responsive: true,
+        global_stats: false,
+        tooltips: true,
+      });
+  
+      $(".counting").each(function () {
+        var $this = $(this),
+          countTo = $this.attr("data-count");
+  
+        $({ countNum: $this.text() }).animate(
+          {
+            countNum: countTo,
+          },
+          {
+            duration: 3000,
+            easing: "linear",
+            step: function () {
+              $this.text(Math.floor(this.countNum));
+            },
+            complete: function () {
+              $this.text(this.countNum);
+            },
+          }
+        );
+      });
+    </script>
   </body>
 </html>
