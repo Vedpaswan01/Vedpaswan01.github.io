@@ -390,6 +390,7 @@ header .follow a:hover {
 .experience .box-container {
   display: flex;
   flex-wrap: wrap;
+  /* border: 1px solid red; */
 }
 
 .experience .box-container .box {
@@ -399,6 +400,7 @@ header .follow a:hover {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
+ 
 }
 
 .experience .box-container .box::before {
@@ -410,6 +412,7 @@ header .follow a:hover {
   width: 2rem;
   border-radius: 50%;
   background: var(--main-color);
+  
 }
 
 .experience .box-container .box .content {
@@ -425,6 +428,7 @@ header .follow a:hover {
   background: var(--main-color);
   border-radius: 50rem;
   padding: 0.4rem 1rem;
+  /* border: 1px solid red; */
 }
 
 .experience .box-container .box .content h3 {
@@ -437,13 +441,21 @@ header .follow a:hover {
   font-size: 1.5rem;
   color: #666;
 }
+.portfolio{
+
+  margin-top: -10%;
+}
 
 .portfolio .box-container {
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px;
- /* border: 2px solid red; */
+  flex-wrap: wrap;
+  
 }
 
 .portfolio .box-container .box {
@@ -455,20 +467,20 @@ header .follow a:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   background: #fff;
   border-radius: 0.5rem;
-  
 }
 
 .portfolio .box-container .box img {
   height: 45%;
   width: 45%;
-
+  object-fit: cover;
   border-radius: 0.5rem;
   position: relative;
   z-index: 1;
 }
 
 .portfolio .box-container .box:hover {
-  
+  /* height: 45%;
+  width: 45%; */
   background-color: #eee;
 }
 
@@ -503,6 +515,11 @@ header .follow a:hover {
 .portfolio .box-container .box .icons a:hover {
   background: var(--main-color);
   color: #fff;
+}
+
+.contact{
+
+  margin-top: -15%;
 }
 
 .contact .icons-container {
@@ -631,6 +648,7 @@ header .follow a:hover {
 @media (max-width: 991px) {
   html {
     font-size: 55%;
+  
   }
 
   body {
@@ -666,6 +684,32 @@ header .follow a:hover {
   .github-images img {
     width: 100%;
   }
+
+  .portfolio .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+   
+  }
+  /* .portfolio{
+
+    margin-top: -75%;
+    
+  }
+  .contact{
+
+    margin-top: 1%;
+  }
+  .experience{
+
+    margin-top: -60%;
+
+  }
+  * .github-stats section{
+
+    margin-top: -10%;
+
+  }  */
 }
 
 @media (max-width: 450px) {
@@ -693,6 +737,24 @@ header .follow a:hover {
   .github-images img {
     width: 100%;
   }
+  .contact{
+
+    margin-top: -50%;
+  }
+     .portfolio{
+
+    margin-top: -50%;
+    
+  }
+   .github-stats section{
+
+    margin-top: 30%;
+
+  } 
+  .service{
+
+    margin-top: 25%;
+  } 
 }
 
 /* === */
