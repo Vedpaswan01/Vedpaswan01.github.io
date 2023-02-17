@@ -517,6 +517,8 @@ header .follow a:hover {
   color: #fff;
 }
 
+
+
 .contact{
 
   margin-top: -15%;
@@ -556,7 +558,9 @@ header .follow a:hover {
 }
 
 .contact .icons-container .icons p {
+  
   color: #666;
+ 
   font-size: 1.7rem;
 }
 
@@ -766,5 +770,12 @@ header .follow a:hover {
 }
 
 .project-desc {
+  line-height: 160%;
   font-size: 1.4rem;
+  
 }
+/* #project-desc >p{
+ border: 1px solid red;
+ margin-top: 10%;
+  
+} */
