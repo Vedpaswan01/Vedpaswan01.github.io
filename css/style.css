@@ -779,3 +779,12 @@ header .follow a:hover {
  margin-top: 10%;
   
 } */
+
+.techStack{
+
+  /* #e85938; */
+  background-color: gainsboro; 
+  border-radius: 5px;
+  color: black;
+  margin: 0.5%;
+}
