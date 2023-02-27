@@ -638,7 +638,7 @@ header .follow a:hover {
 }
 
 .github-images {
-  /* border: 1px solid red; */
+   /* border: 1px solid red;  */
   display: flex;
   width: 100%;
   gap: 12px;
@@ -646,6 +646,7 @@ header .follow a:hover {
 }
 .github-images img {
   width: 49%;
+
 }
 
 /* media queries  */
@@ -767,6 +768,9 @@ header .follow a:hover {
   font-size: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 100%;
+  padding: 0;
+  /* border:  1px solid red; */
 }
 
 .project-desc {
