@@ -792,3 +792,115 @@ header .follow a:hover {
   color: black;
   margin: 0.5%;
 }
+
+.techStack>img{
+
+  width: 10px;
+  height: 10px;
+
+}
+ 
+.icon-row {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.java-icon {
+  width: 32px;
+  height: 32px;
+  background-image: url("../images/java-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+}
+
+.spring-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/spring-boot-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+}
+
+.sql-icon {
+  width: 35px;
+  height: 35px;
+  background-image: url("../images/mysql-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+}
+
+
+.hibernate-icon{
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/hibernate-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+}
+.html-icon{
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/html5-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+}
+.css-icon{
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/css-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+}
+.javaSript-icon{
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/javascript-fill-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+}
+
+.api-icon{
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/api-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5%;
+}
+
+#t-stack{
+
+  display: flex;
+  line-height: 160%;
+  font-size: 1.4rem;
+  align-items: center;
+  /* border: 1px solid red */
+ 
+}
+
+
+.kim{
+
+  margin-top: 4%;
+  /* border: 1px solid red; */
+
+}
+
+/* <li class="html-icon"></li>
+<li class="css-icon"></li>
+<li class="javaSript-icon"></li>
+<li class="api-icon"></li> */
+
+/* <li class="java-icon"></li>
+<li class="spring-icon"></li>
+<li class="sql-icon"></li>
+<li class="hibernate-icon"></li> */
