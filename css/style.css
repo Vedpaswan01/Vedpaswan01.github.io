@@ -649,6 +649,12 @@ header .follow a:hover {
 
 }
 
+#profile_image{
+
+  border-radius: 50%;
+
+}
+
 /* media queries  */
 @media (max-width: 991px) {
   html {
