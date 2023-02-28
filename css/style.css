@@ -33,8 +33,10 @@ body {
 }
 
 section {
-  padding: 1rem 5%;
-  min-height: 100vh;
+  padding: 50px 30px ;
+  /* min-height: 100vh; */
+  /* border: 1px solid red; */
+  
 }
 
 .heading {
@@ -450,10 +452,7 @@ header .follow a:hover {
   font-size: 1.5rem;
   color: #666;
 }
-.portfolio{
 
-  margin-top: -10%;
-}
 
 .portfolio .box-container {
   /* display: flex;
@@ -757,7 +756,7 @@ header .follow a:hover {
   .github-images img {
     width: 100%;
   }
-  .contact{
+  /* .contact{
 
     margin-top: -50%;
   }
@@ -774,7 +773,7 @@ header .follow a:hover {
   .service{
 
     margin-top: 25%;
-  } 
+  }  */
 }
 
 /* === */
