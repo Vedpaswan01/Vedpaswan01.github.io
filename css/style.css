@@ -808,6 +808,14 @@ header .follow a:hover {
   margin-left: 5%;
 }
 
+#github_chrome{
+
+  display:  flex; 
+  justify-content: center; 
+  align-items: center;
+ 
+
+}
 
 
 /* media queries  */
