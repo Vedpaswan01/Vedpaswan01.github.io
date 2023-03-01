@@ -1,0 +1,79 @@
+.box {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .box h4 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .icons {
+    margin-top: 10px;
+  }
+  
+  .icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #000;
+  }
+  
+  .icon-row {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 0;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-size: cover;
+  }
+  
+  .html-icon {
+    background-image: url(images/html-icon.png);
+  }
+  
+  .css-icon {
+    background-image: url(images/css-icon.png);
+  }
+  
+  .javascript-icon {
+    background-image: url(images/javascript-icon.png);
+  }
+  
+  .api-icon {
+    background-image: url(images/api-icon.png);
+  }
+  
+  .project-desc {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  #lowercase {
+    text-transform: lowercase;
+  }
+  
+  #t-stack {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

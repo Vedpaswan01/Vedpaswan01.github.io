@@ -663,139 +663,35 @@ header .follow a:hover {
 
 #proj_div{
   padding-left: 1%;
+  position: relative;
 
    /* border: 1px solid darkgray; */
-   height: 335px;
+   height: 350px;
    /* border: 1px solid blue; */
 
 
    
  }
+ #t-stack{
 
-/* media queries  */
-@media (max-width: 1024px) {
-  html {
-    font-size: 55%;
-  
-  }
+  display: flex;
+  line-height: 150%;
+  font-size: 1.4rem;
+  align-items: center;
+  /* border: 1px solid red; */
+  position: absolute;
+  bottom: 0
 
-  body {
-    padding: 0;
-  }
-
-  #menu-bars {
-    display: initial;
-  }
-
-  header {
-    left: -120%;
-  }
-
-  header.active {
-    left: 0%;
-  }
-
-  .cursor-1,
-  .cursor-2 {
-    display: none;
-  }
-
-  .github-images {
-    height: auto;
-    /* border: 1px solid red; */
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 12px;
-    align-items: center;
-  }
-  .github-images img {
-    width: 100%;
-  }
-
-  .portfolio .box-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-   
-  }
-  #proj_div{
-   padding-left: 1%;
-
-    border: 1px solid darkgray;
-    height: 300px;
-    /* border: 1px solid red; */
-
-
-    
-  }
-  /* .portfolio{
-
-    margin-top: -75%;
-    
-  }
-  .contact{
-
-    margin-top: 1%;
-  }
-  .experience{
-
-    margin-top: -60%;
-
-  }
-  * .github-stats section{
-
-    margin-top: -10%;
-
-  }  */
+ 
 }
 
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
 
-  header {
-    width: 100%;
-  }
+.kim{
 
-  .experience .box-container .box {
-    padding-right: 0;
-  }
+  margin-top: 1%;
+  /* border: 1px solid red; */
 
-  .github-images {
-    height: auto;
-    /* border: 1px solid red; */
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 12px;
-    align-items: center;
-  }
-  .github-images img {
-    width: 100%;
-  }
-  /* .contact{
-
-    margin-top: -50%;
-  }
-     .portfolio{
-
-    margin-top: -50%;
-    
-  }
-   .github-stats section{
-
-    margin-top: 30%;
-
-  } 
-  .service{
-
-    margin-top: 25%;
-  }  */
 }
-
-/* === */
 .github-stats {
   text-align: center;
   font-size: 30px;
@@ -809,6 +705,8 @@ header .follow a:hover {
 .project-desc {
   line-height: 160%;
   font-size: 1.4rem;
+  margin-top: 4%;
+  /* border: 1px solid red; */
   
 }
 /* #project-desc >p{
@@ -910,23 +808,149 @@ header .follow a:hover {
   margin-left: 5%;
 }
 
-#t-stack{
 
-  display: flex;
-  line-height: 150%;
-  font-size: 1.4rem;
-  align-items: center;
-  /* border: 1px solid red */
+
+/* media queries  */
+@media (max-width: 1024px) {
+  html {
+    font-size: 55%;
+  
+  }
+
+  body {
+    padding: 0;
+  }
+
+  #menu-bars {
+    display: initial;
+  }
+
+  header {
+    left: -120%;
+  }
+
+  header.active {
+    left: 0%;
+  }
+
+  .cursor-1,
+  .cursor-2 {
+    display: none;
+  }
+
+  .github-images {
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    align-items: center;
+  }
+  .github-images img {
+    width: 100%;
+  }
+
+  .portfolio .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+   
+  }
+  #proj_div{
+   padding-left: 1%;
+
+    border: 1px solid darkgray;
+    height: 325px;
+    /* border: 1px solid red; */
+
+
+    
+  }
+
+  /* .portfolio{
+
+    margin-top: -75%;
+    
+  }
+  .contact{
+
+    margin-top: 1%;
+  }
+  .experience{
+
+    margin-top: -60%;
+
+  }
+  * .github-stats section{
+
+    margin-top: -10%;
+
+  }  */
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .experience .box-container .box {
+    padding-right: 0;
+  }
+
+  .github-images {
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    align-items: center;
+  }
+  .github-images img {
+    width: 100%;
+  }
+
+  .project-desc {
+    line-height: 160%;
+    font-size: 1.4rem;
+    border: 1px green;
+    margin-top: 9%;
+    
+  }
+  /* #features{
+
+    margin-top: 5%;
+    border: 1px solid red;
+
+  } */
  
+  /* .contact{
+
+    margin-top: -50%;
+  }
+     .portfolio{
+
+    margin-top: -50%;
+    
+  }
+   .github-stats section{
+
+    margin-top: 30%;
+
+  } 
+  .service{
+
+    margin-top: 25%;
+  }  */
 }
 
+/* === */
 
-.kim{
-
-  margin-top: 3%;
-  /* border: 1px solid red; */
-
-}
 
 /* <li class="html-icon"></li>
 <li class="css-icon"></li>
