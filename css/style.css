@@ -34,6 +34,7 @@ body {
 
 section {
   padding: 50px 30px ;
+  height: auto;
   /* min-height: 100vh; */
   /* border: 1px solid red; */
   
@@ -660,8 +661,19 @@ header .follow a:hover {
 
 }
 
+#proj_div{
+  padding-left: 1%;
+
+   /* border: 1px solid darkgray; */
+   height: 335px;
+   /* border: 1px solid blue; */
+
+
+   
+ }
+
 /* media queries  */
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   html {
     font-size: 55%;
   
@@ -706,6 +718,16 @@ header .follow a:hover {
     flex-wrap: wrap;
     gap: 1.5rem;
    
+  }
+  #proj_div{
+   padding-left: 1%;
+
+    border: 1px solid darkgray;
+    height: 300px;
+    /* border: 1px solid red; */
+
+
+    
   }
   /* .portfolio{
 
@@ -891,7 +913,7 @@ header .follow a:hover {
 #t-stack{
 
   display: flex;
-  line-height: 160%;
+  line-height: 150%;
   font-size: 1.4rem;
   align-items: center;
   /* border: 1px solid red */
@@ -901,7 +923,7 @@ header .follow a:hover {
 
 .kim{
 
-  margin-top: 4%;
+  margin-top: 3%;
   /* border: 1px solid red; */
 
 }
